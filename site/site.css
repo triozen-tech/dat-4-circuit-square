@@ -133,7 +133,7 @@ html.is-static .live-dot,
 html.is-static .ticker-track {
   animation: none;
 }
-@media (prefers-reduced-motion: reduce) {
+html.is-static {
   .review-track,
   .live-dot {
     animation: none;
